@@ -8,7 +8,7 @@ public class FlipCoins {
     }
 
     public void flips() {
-        String[] coins = new String[numberOfCoins];
+        String[] coins = new String[this.numberOfCoins];
 
         for (int i = 0; i < coins.length; i++) {
             if (Math.random() < 0.5) {
