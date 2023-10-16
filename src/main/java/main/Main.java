@@ -1,7 +1,10 @@
 package main;
 
+import lec03.ex02.FlipCoins;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        FlipCoins flipCoins = new FlipCoins(10);
+        flipCoins.flips();
     }
 }
