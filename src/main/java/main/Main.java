@@ -1,10 +1,10 @@
 package main;
 
-import lec03.ex02.FlipCoins;
+import lec03.ex03.RandomNumber;
 
 public class Main {
     public static void main(String[] args) {
-        FlipCoins flipCoins = new FlipCoins(10);
-        flipCoins.flips();
+        RandomNumber randomNumber = new RandomNumber(4);
+        randomNumber.print();
     }
 }
