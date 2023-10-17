@@ -1,10 +1,12 @@
 package main;
 
-import lec03.ex04.SumOfSquareRoots;
+import lec04.ex01.CircleTest;
 
 public class Main {
     public static void main(String[] args) {
-        SumOfSquareRoots sumOfSquareRoots = new SumOfSquareRoots(100);
-        System.out.println(sumOfSquareRoots.calculate());
+        CircleTest circleTest = new CircleTest();
+        circleTest.testField();
+        circleTest.testConstructor();
+        circleTest.testArea();
     }
 }
