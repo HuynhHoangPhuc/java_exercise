@@ -1,7 +1,7 @@
 package main;
 
 import lec04.ex01.CircleTest;
-import lec04.ex01.SumOfCircleAreas;
+import lec04.ex02.SumOfCircleAreas;
 
 public class Main {
     public static void main(String[] args) {
