@@ -1,12 +1,10 @@
 package main;
 
-import lec04.ex01.CircleTest;
+import lec07.ex01.CircleAreas;
 
 public class Main {
     public static void main(String[] args) {
-        CircleTest circleTest = new CircleTest();
-        circleTest.testField();
-        circleTest.testConstructor();
-        circleTest.testArea();
+        CircleAreas circleAreas = new CircleAreas();
+        circleAreas.print();
     }
 }
